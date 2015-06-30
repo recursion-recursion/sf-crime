@@ -1,0 +1,13 @@
+Package: SFCrimeAnalyze
+Title: Analyze SF Crime
+Version: 0.0.0.9000
+Authors@R: person("Sameer", "Soi", email = "sameersoi@gmail.com", role = c("aut", "cre")),
+           person("Bryan", "Sim", email = "bryan.sim@nyu.edu", role = c("aut")), 
+Description: Kaggle competition for predicting crime in SF
+Depends: R (>= 3.2.1)
+License: MIT
+LazyData: true
+Imports:
+  RPostgresSQL
+  dplyr
+  ggvis
